@@ -7,7 +7,7 @@ struct node
 }*head;
 void createList(int);
 void printList();
-void main()
+int main()
 {
 	head = NULL;
 	createList(10);
@@ -19,6 +19,8 @@ void main()
 	createList(302);
 	createList(403);
 	printList();
+	
+  return 0;
 }
 void printList()
 {
